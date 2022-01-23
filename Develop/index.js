@@ -46,7 +46,7 @@ const promptUser = () => {
       //'Licensing' section
       type: 'checkbox',
       message: 'What will the license be for your application?',
-      choices:["Apache 2.0", "BSD-3", "BSD-2", "GNU GPL", "GNU LGPL", "MIT", "Mozilla Public License 2.0", "Common Development and Distribution", "Eclipse 2.0"],
+      choices:["Apache-2.0", "BSD-3", "BSD-2", "GNU-GPL", "GNU-LGPL", "MIT", "Mozilla-Public-License-2.0", "Common-Development-and-Distribution", "Eclipse-2.0"],
       name: 'licensing',
     },
     {
@@ -80,17 +80,21 @@ const generateReadMe = ({
 
 ## Licensing
 
-![GitHub license](https://img.shields.io/badge/License-${licensing}-yellow.svg)
+![GitHub license](https://img.shields.io/badge/License-%22${licensing}%22-yellow.svg)
 
 ## Description
 - ${description}
 
 ## Table of Contents
-[How to install](#installation)
-[How to use](#usage)
-[How to contribute](#contributing)
-[How to test](#tests)
-[License](#licensing)
+- [How to install](#installation)
+
+- [How to use](#usage)
+
+- [How to contribute](#contributing)
+
+- [How to test](#tests)
+
+- [License](#licensing)
 
 ## How to install
 - ${installation}
