@@ -10,5 +10,14 @@
   "dependencies": {
     "inquirer": "^6.5.2"
   },
-  "description": ""
+  "description": "## Licensing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewTranMSW/goodReadMeGenerator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/AndrewTranMSW/goodReadMeGenerator/issues"
+  },
+  "homepage": "https://github.com/AndrewTranMSW/goodReadMeGenerator#readme"
 }

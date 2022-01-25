@@ -86,15 +86,17 @@ const generateReadMe = ({
 - ${description}
 
 ## Table of Contents
-- [How to install](#installation)
+- [How to install](#how-to-install)
 
-- [How to use](#usage)
+- [How to use](#how-to-use)
 
-- [How to contribute](#contributing)
+- [How to contribute](#how-to-contribute)
 
-- [How to test](#tests)
+- [How to test](#testing)
 
 - [License](#licensing)
+
+- [Questions](#questions)
 
 ## How to install
 - ${installation}
@@ -115,7 +117,7 @@ const generateReadMe = ({
 //Function to run the questions through the README template
 const init = () => {
   promptUser()
-  .then((response) => fs.writeFileSync('README.md', generateReadMe(response)))
+  .then((response) => fs.writeFileSync('exampleREADME.md', generateReadMe(response)))
   .then(() => console.log("It's working!"))
   .catch((err) => {
     throw err
